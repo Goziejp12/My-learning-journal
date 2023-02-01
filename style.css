@@ -1,0 +1,25 @@
+img {
+    width: 5%;
+}
+
+header {
+    display: flex;
+}
+
+.hero-tag, nav ul {
+    display: flex;
+}
+
+nav ul{
+    gap: 1em;
+    list-style: none;
+    margin-right: 5em;
+}
+
+nav button {
+    font-size: 1rem;
+    font-weight: bold;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
