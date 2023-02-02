@@ -71,14 +71,17 @@ main {
     border-radius: 5px;
 }
 
+.view-more {
+    display: none;
+}
+
 .last-p {
     margin-bottom: 3em;
 }
 
-main a {
+.anchor-btn {
     font-weight: bold;
     color: black;
-    display: block;
     text-align: center;
     cursor: pointer;
 }
