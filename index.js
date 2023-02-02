@@ -9,7 +9,7 @@ document.addEventListener('click', function(e) {
         viewMore.style.display = 'block'
         anchorBtn.style.display = 'none'
     }
-    if (e.target.id == 'about-me-btn') {
+    else if (e.target.id == 'about-me-btn') {
         intro.style.display = 'none'
         aboutMe.style.display = 'block'
         viewMore.style.display = 'none'
