@@ -4,11 +4,16 @@ body {
 }
 
 img {
-    width: 5%;
+    width: 15%;
 }
 
 header {
     display: flex;
+    padding: 0 1.5em;
+}
+
+.hero-tag h1 {
+    font-size: 1.5rem;
 }
 
 .hero-tag, nav ul {
@@ -18,9 +23,8 @@ header {
 nav ul {
     list-style: none;
     font-weight: bold;
-    gap: 1em;
+    gap: 0.7em;
     cursor: pointer;
-    margin-right: 2em;
 }
 
 li a {
