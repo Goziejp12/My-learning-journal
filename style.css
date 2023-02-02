@@ -9,11 +9,10 @@ img {
 
 header {
     display: flex;
-    padding: 0 1.5em;
 }
 
 .hero-tag h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .hero-tag, nav ul {
@@ -23,6 +22,7 @@ header {
 nav ul {
     list-style: none;
     font-weight: bold;
+    margin-right: 1.5em;
     gap: 0.7em;
     cursor: pointer;
 }
