@@ -41,7 +41,19 @@ li a {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    padding-left: 1.5em;
+    padding-left: 1em;
+}
+
+.intro-h1 {
+    margin-bottom: 0.4em;
+}
+
+.intro .date {
+    margin-bottom: 0.5em;
+}
+
+.intro-article, .intro-h1  {
+    margin-top: 0;
 }
 
 main {
