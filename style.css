@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
 img {
     width: 5%;
 }
@@ -10,16 +15,55 @@ header {
     display: flex;
 }
 
-nav ul{
-    gap: 1em;
+nav ul {
     list-style: none;
-    margin-right: 5em;
+    font-weight: bold;
+    gap: 1em;
+    cursor: pointer;
+    margin-right: 2em;
 }
 
-nav button {
+li a {
+    text-decoration: none;
+}
+
+.intro {
     font-size: 1rem;
+    color: white;
+    background: url(images/programmin.webp);
+    background-size: 100% 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left: 1.5em;
+}
+
+main {
+    padding: 1.5em;
+}
+
+.post-img {
+    max-width: 480px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.last-p {
+    margin-bottom: 3em;
+}
+
+main a {
     font-weight: bold;
-    background: none;
+    color: black;
+    display: block;
+    text-align: center;
     cursor: pointer;
-    border: none;
+}
+
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 2em 0 2em 0;
 }
