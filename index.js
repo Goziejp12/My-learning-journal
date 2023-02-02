@@ -9,9 +9,10 @@ document.addEventListener('click', function(e) {
         viewMore.style.display = 'block'
         anchorBtn.style.display = 'none'
     }
-    else if (e.target.id == 'about-me-btn') {
+    if (e.target.id == 'about-me-btn') {
         intro.style.display = 'none'
         aboutMe.style.display = 'block'
+        viewMore.style.display = 'none'
         anchorBtn.style.display = 'none'
     }
     else if (e.target.id == 'home-btn') {
