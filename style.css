@@ -44,7 +44,7 @@ li a {
     padding-left: 1em;
 }
 
-.intro-h1 {
+.intro-h1, .about-me h1 {
     margin-bottom: 0.4em;
     width: 80%;
 }
@@ -73,17 +73,42 @@ main {
 
 .view-more {
     display: none;
+    padding: 1em;
+}
+
+.break {
+    display: block;
+    margin-top: 1em;
+}
+
+.about-me {
+    display: none;
+    padding: 1em;
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: 5px solid red;
+    min-width: 35vw;
+    margin-top: 1em;
 }
 
 .last-p {
     margin-bottom: 3em;
 }
 
+.recent-posts {
+    text-align: center;
+}
+
 .anchor-btn {
     font-weight: bold;
     color: black;
+    display: block;
+    margin: 0 auto;
     text-align: center;
     cursor: pointer;
+    padding: 0;
 }
 
 footer {
