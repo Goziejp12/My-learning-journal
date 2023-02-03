@@ -185,12 +185,11 @@ footer {
         grid-gap: 1em;
     }
 
-    main p {
+    main p, .about-me p, .view-more p {
         height: 5%;
     }
 
     main h1 {
-        border: 1px solid;
         margin-top: 0;
         margin-bottom: 0;
     }
