@@ -7,11 +7,11 @@ header img {
     width: 10%;
 }
 
-header, nav ul{
+header, nav ul, .intro{
     display: flex;
 }
 
-header {
+header, main, .view-more, .about-me {
     padding: 1em;
 }
 
@@ -24,10 +24,13 @@ header h1 {
 }
 
 nav ul {
-    font-weight: bold;
-    cursor: pointer;
     list-style-type: none;
     gap: 0.65em;
+}
+
+nav ul, .anchor-btn {
+    font-weight: bold;
+    cursor: pointer;
 }
 
 nav a {
@@ -41,31 +44,21 @@ nav a {
     background: url(images/programmin.webp);
     background-size: 100% 100%;
     min-height: 40vh;
-    display: flex;
     flex-direction: column;
     justify-content: end;
     padding-left: 1em;
 }
 
-.intro-h1, .about-me h1 {
-    margin-bottom: 0.4em;
+.intro-h1, .about-me h1, .intro-article {
     width: 80%;
 }
 
-.intro .date {
+.intro .date, .intro-h1, .about-me h1 {
     margin-bottom: 0.5em;
 }
 
 .intro-article, .intro-h1  {
     margin-top: 0;
-}
-
-.intro-article {
-    width: 90%;
-}
-
-main {
-    padding: 1em;
 }
 
 .post-img {
@@ -75,54 +68,40 @@ main {
     border-radius: 5px;
 }
 
-.desktop-view {
+.desktop-view, .about-me .view-more {
     display: none;
-}
-
-.view-more {
-    display: none;
-    padding: 1em;
 }
 
 .view-more strong {
     font-size: 1.3rem;
 }
 
-.break {
+.break, .recent-posts, .anchor-btn {
     display: block;
-    margin-top: 1em;
 }
 
-.about-me {
-    display: none;
-    padding: 1em;
+.break, .post-img {
+    margin-top: 1em;
 }
 
 .profile-img {
     border-radius: 50%;
     border: 5px solid red;
     width: 35%;
-    margin-top: 1em;
 }
 
-.recent-posts {
-    display: block;
+.recent-posts, .anchor-btn, footer {
     text-align: center;
 }
 
 .anchor-btn {
-    font-weight: bold;
     color: black;
-    display: block;
     margin: 2em 0;
-    text-align: center;
-    cursor: pointer;
 }
 
 footer {
     color: white;
     background-color: black;
-    text-align: center;
     padding: 2em 0 2em 0;
 }
 
@@ -134,11 +113,10 @@ footer {
     }
 
     nav a {
-        font-size: 1rem;
         margin-left: 2em;
     }
 
-    header {
+    header, main, .view-more {
         padding: 2em;
     }
 
@@ -163,7 +141,7 @@ footer {
         display: block;
     }
 
-    .intro p {
+    .intro p, nav a {
         font-size: 1rem;
     }
 
@@ -174,10 +152,6 @@ footer {
     .view-more .post-img {
         min-width: 100%;
         min-height: 10%;
-    }
-
-    main, .view-more {
-        padding: 2em;
     }
 
     .view-more2 {
@@ -198,11 +172,10 @@ footer {
     }
 
     main h1 {
-        margin-top: 0;
         margin-bottom: 0;
     }
 
-    .anchor-btn {
+    .anchor-btn, main h1 {
         margin-top: 0;
     }
 
