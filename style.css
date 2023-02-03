@@ -125,9 +125,6 @@ footer {
 /* Media queries */
 
 @media (min-width: 768px) {
-    body {
-        background-color: red;
-    }
     
     .desktop-view {
         display: block;
