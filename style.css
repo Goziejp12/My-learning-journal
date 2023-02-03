@@ -52,8 +52,8 @@ nav a {
     color: white;
     background: url(images/programmin.webp);
     background-size: cover;
-    min-width: 100vw;
-    min-height: 60vh;
+    width: 100vw;
+    height: 40vh;
     flex-direction: column;
     justify-content: end;
     padding-left: 1em;
@@ -154,6 +154,10 @@ footer {
     
     .desktop-view {
         display: block;
+    }
+
+    .intro {
+        height: 60vh;
     }
 
     .intro p, nav a {
