@@ -51,8 +51,9 @@ nav a {
     font-size: 1rem;
     color: white;
     background: url(images/programmin.webp);
-    background-size: 100% 100%;
-    min-height: 40vh;
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 60vh;
     flex-direction: column;
     justify-content: end;
     padding-left: 1em;
