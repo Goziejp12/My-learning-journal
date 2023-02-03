@@ -190,7 +190,8 @@ footer {
     }
 
     main p, .view-more p, .about-me {
-        min-width: 100%;
+        width: 100%;
+        height: 10%;
     }
 
     .anchor-btn {
