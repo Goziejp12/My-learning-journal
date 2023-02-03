@@ -3,32 +3,35 @@ body {
     padding: 0;
 }
 
-img {
-    width: 15%;
+header img {
+    width: 10%;
+}
+
+header, nav ul{
+    display: flex;
 }
 
 header {
-    display: flex;
+    padding: 1em;
 }
 
-.hero-tag h1 {
-    font-size: 1rem;
+nav {
+    margin-left: auto;
 }
 
-.hero-tag, nav ul {
-    display: flex;
+header h1 {
+    font-size: 1.2rem;
 }
 
 nav ul {
-    list-style: none;
-    font-size: 0.75rem;
     font-weight: bold;
-    margin-right: 1.5em;
-    gap: 0.7em;
     cursor: pointer;
+    list-style-type: none;
+    gap: 0.65em;
 }
 
-li a {
+nav a {
+    font-size: 0.8rem;
     text-decoration: none;
 }
 
@@ -125,6 +128,9 @@ footer {
 /* Media queries */
 
 @media (min-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
     
     .desktop-view {
         display: block;
