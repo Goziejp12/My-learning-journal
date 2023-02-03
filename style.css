@@ -163,6 +163,14 @@ footer {
         display: block;
     }
 
+    .intro p {
+        font-size: 1rem;
+    }
+
+    .intro h1 {
+        font-size: 2rem;
+    }
+
     .view-more .post-img {
         min-width: 100%;
         min-height: 10%;
