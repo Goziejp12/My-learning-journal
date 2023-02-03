@@ -155,10 +155,10 @@ footer {
     .desktop-view {
         display: block;
     }
-/* 
+
     .intro {
-        min-height: 0vh;
-    } */
+        min-height: 60vh;
+    }
 
     .intro p, nav a {
         font-size: 1rem;
