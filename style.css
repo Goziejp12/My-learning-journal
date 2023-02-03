@@ -68,7 +68,7 @@ nav a {
     border-radius: 5px;
 }
 
-.desktop-view, .about-me .view-more {
+.desktop-view, .about-me, .view-more {
     display: none;
 }
 
