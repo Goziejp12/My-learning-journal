@@ -15,6 +15,17 @@ header, main, .view-more, .about-me {
     padding: 1em;
 }
 
+.fa-suitcase {
+    font-size: 2rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 0.4em;
+}
+
+header h1, .fa-suitcase {
+    cursor: pointer;
+}
+
 nav {
     margin-left: auto;
 }
