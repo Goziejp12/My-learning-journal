@@ -165,7 +165,7 @@ footer {
 
     .view-more .post-img {
         min-width: 100%;
-        min-height: 15%;
+        min-height: 10%;
     }
 
     main, .view-more {
@@ -174,10 +174,6 @@ footer {
 
     .view-more2 {
         padding: 0 4em;
-    }
-
-    .view-more2 h1{
-        padding-left: 6em;
     }
 
     main {
@@ -189,8 +185,14 @@ footer {
         grid-gap: 1em;
     }
 
-    main p, .view-more p, .about-me {
-        height: 8%;
+    main p {
+        height: 5%;
+    }
+
+    main h1 {
+        border: 1px solid;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .anchor-btn {
